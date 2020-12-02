@@ -1,10 +1,10 @@
 {
   "name": "nodb-project",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "main": "server/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/index.js"
   },
   "keywords": [],
   "author": "",
@@ -12,5 +12,15 @@
   "dependencies": {
     "axios": "^0.21.0",
     "express": "^4.17.1"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brookecm28/nodb-project.git"
+  },
+  "bugs": {
+    "url": "https://github.com/brookecm28/nodb-project/issues"
+  },
+  "homepage": "https://github.com/brookecm28/nodb-project#readme",
+  "description": ""
 }
